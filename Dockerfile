@@ -1,6 +1,6 @@
-FROM ubuntu:20.04
+FROM jrei/systemd-debian
 RUN apt-get update \
-    && apt-get install -y wget procps systemctl \
+    && apt-get install -y wget procps \
     && wget https://raw.githubusercontent.com/vaxilu/x-ui/main/install.sh \
     && chmod 777 ./install.sh \
     && ./install.sh \
