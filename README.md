@@ -14,3 +14,8 @@ x-ui 使用说明：https://github.com/vaxilu/x-ui/blob/main/README.md
 ```
 git clone https://github.com/expfukck/docker-x-ui.git && mv docker-x-ui x-ui && cd x-ui && bash build.sh
 ```
+进入x-ui容器进行安装
+```
+docker exec -it x-ui bash
+wget -N --no-check-certificate https://raw.githubusercontents.com/expfukck/Xx-ui/main/install.sh && bash install.sh
+```
