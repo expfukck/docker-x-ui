@@ -9,3 +9,6 @@ x-ui 使用说明：https://github.com/vaxilu/x-ui/blob/main/README.md
 创建容器：`build.sh`
 
 注意：54321 是管理页面访问端口，本地端口也可看自己需求改动。
+
+### 启动说明
+git clone https://github.com/expfukck/v2board-docker.git && mv v2board-docker v2b && cd v2b && bash 
