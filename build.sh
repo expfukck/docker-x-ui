@@ -1,3 +1,4 @@
+apt-get install -y unzip wget
 docker build -t x-ui .
 wget https://github.com/XTLS/Xray-core/releases/download/v1.5.5/Xray-linux-64.zip
 unzip Xray-linux-64.zip -d x-ray
