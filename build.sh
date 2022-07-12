@@ -1,7 +1,7 @@
 mkdir Internet
 cd Internet
 sudo docker build -t x-ui .
-wget https://github.com/XTLS/Xray-core/releases/download/v1.5.2/Xray-linux-64.zip
+wget https://github.com/XTLS/Xray-core/releases/download/v1.5.5/Xray-linux-64.zip
 unzip Xray-linux-64.zip -d x-ray
 mv x-ray/xray x-ray/xray-linux-amd64
 rm Xray-linux-64.zip
