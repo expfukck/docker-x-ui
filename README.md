@@ -1,4 +1,4 @@
-# X-UI Docker 版
+# X-UI Docker魔改版
 
 > 基于 https://github.com/vaxilu/x-ui 制作的 Docker镜像，原汁原味，增加了拉取最新版本的X-RAY。
 
