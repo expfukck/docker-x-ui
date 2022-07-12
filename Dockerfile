@@ -9,7 +9,7 @@ RUN apt-get install -y wget procps unzip
 #RUN mv x-ray/xray x-ray/xray-linux-amd64 
 #RUN rm Xray-linux-64.zip 
 
-RUN wget -N https://raw.githubusercontent.com/expfukck/Xx-ui/main/install.sh
+#RUN wget -N https://raw.githubusercontent.com/expfukck/Xx-ui/main/install.sh
 #RUN chmod 777 ./install.sh
 #RUN ./install.sh
 
