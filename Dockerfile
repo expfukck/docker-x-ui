@@ -12,4 +12,4 @@ RUN wget -N https://raw.githubusercontent.com/expfukck/Xx-ui/main/install.sh
 #RUN chmod 777 ./install.sh
 #RUN ./install.sh
 
-ENTRYPOINT x-ui
+#ENTRYPOINT x-ui
